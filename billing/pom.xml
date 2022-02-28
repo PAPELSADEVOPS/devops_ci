@@ -81,8 +81,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+<<<<<<< HEAD
         </dependency>
 
+=======
+        </dependency>        
+>>>>>>> aa6b2ac61c7f90301a4118b8c744bfb1ff04c1c8
                 
         <dependency>
             <groupId>io.springfox</groupId>
@@ -95,7 +99,18 @@
             <artifactId>mapstruct</artifactId>
             <version>1.3.1.Final</version>
             <type>jar</type>
+<<<<<<< HEAD
         </dependency>     
+=======
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webflux</artifactId>
+            <version>5.2.9.RELEASE</version>
+            <scope>test</scope>
+            <type>jar</type>
+        </dependency>
+>>>>>>> aa6b2ac61c7f90301a4118b8c744bfb1ff04c1c8
     </dependencies>
 
     <build>

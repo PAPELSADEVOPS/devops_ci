@@ -18,7 +18,11 @@ import lombok.Data;
  * @author sotobotero
  */
 @Entity
+<<<<<<< HEAD
 @Data
+=======
+//@Data
+>>>>>>> aa6b2ac61c7f90301a4118b8c744bfb1ff04c1c8
 public class Invoice {
    @Id
   @GeneratedValue(strategy=GenerationType.AUTO)
@@ -27,4 +31,50 @@ public class Invoice {
    private String number;
    private String detail;
    private double amount;  
+<<<<<<< HEAD
+=======
+
+    public Invoice() {
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public long getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(long customerId) {
+        this.customerId = customerId;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    public String getDetail() {
+        return detail;
+    }
+
+    public void setDetail(String detail) {
+        this.detail = detail;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }     
+>>>>>>> aa6b2ac61c7f90301a4118b8c744bfb1ff04c1c8
 }
