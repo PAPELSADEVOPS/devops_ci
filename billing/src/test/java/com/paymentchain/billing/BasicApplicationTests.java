@@ -1,19 +1,5 @@
 package com.paymentchain.billing;
 
-<<<<<<< HEAD
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
-
-@RunWith(SpringRunner.class)
-//@SpringBootTest
-public class BasicApplicationTests {
-
-	@Test
-	public void contextLoads() {
-	}
-=======
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.paymentchain.billing.common.InvoiceRequestMapper;
 import com.paymentchain.billing.common.InvoiceResposeMapper;
@@ -117,6 +103,5 @@ public class BasicApplicationTests {
                 .andDo(MockMvcResultHandlers.print())
                 .andExpect(MockMvcResultMatchers.jsonPath("$.invoiceId").value(1));
     }
->>>>>>> aa6b2ac61c7f90301a4118b8c744bfb1ff04c1c8
 
 }

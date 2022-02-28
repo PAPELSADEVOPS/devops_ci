@@ -18,11 +18,7 @@ import lombok.Data;
  * @author sotobotero
  */
 @Entity
-<<<<<<< HEAD
-@Data
-=======
 //@Data
->>>>>>> aa6b2ac61c7f90301a4118b8c744bfb1ff04c1c8
 public class Invoice {
    @Id
   @GeneratedValue(strategy=GenerationType.AUTO)
@@ -31,8 +27,6 @@ public class Invoice {
    private String number;
    private String detail;
    private double amount;  
-<<<<<<< HEAD
-=======
 
     public Invoice() {
     }
@@ -76,5 +70,4 @@ public class Invoice {
     public void setAmount(double amount) {
         this.amount = amount;
     }     
->>>>>>> aa6b2ac61c7f90301a4118b8c744bfb1ff04c1c8
 }
